@@ -1,9 +1,17 @@
-const scrollUp = document.querySelector("#scroll-up");
+// Menu Toolbar
+const navbarNav = document.querySelector('.navbar-nav');
 
-scrollUp.addEventListener("click", () => {
-  window.scrollTo({
-    top: 0,
-    left: 0,
-    behavior: "smooth",
-  });
+// click
+document.querySelector('#menu').onclick = () => {
+  navbarNav.classList.toggle('active');
+};
+
+// menghilangkan toolbar
+const menu = document.querySelector('#menu');
+document.addEventListener('click', function(e){
+  if(!menu.contains(e.target) && !navbarNav.contains(e.target)){
+    navbarNav.classList.remove('active');
+  }
+
 });
+

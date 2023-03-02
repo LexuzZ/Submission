@@ -1,48 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Submission Web Dasar</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header class="navbar">
-    <nav class="nav-list">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  <article class="container">
-    <section>
-      <img src="assets/img/rent-car.jpg" alt="rent-car">
-    </article>
-    
-    </section>
-    
-  <footer>
-    <div>
-      <div class="row">
-        <div class="">
-          <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by Haerul Taka.
-          </p>
+    <header>
+        <!-- navbar -->
+        
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">Lombok <span>Tourism</span></a>
+        <div class="navbar-nav">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#footer">Kontak</a>
+
         </div>
-          <ul class="social-icons">
-            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>  
-            <li><a class="github" href="#"><i class="fa fa-github"></i></a></li> 
-          </ul>
-      </div>
-    </div>
-  </footer>
+        <div class="navbar-extra">
+            <a href="#car" class="key"><i data-feather="key"></i></a>
+            <a href="#" id="menu"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+    <!--  navbar end-->
+
+    </header>
+    <!-- Section Start -->
+
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Rental Mobil by <span>Lombok Tourism</span></h1>
+            <p>Nikmati perjalanan liburanmu tanpa memikirkan transportasi</p>
+            <a href="#" class="link-content">Booking Sekarang</a>
+
+        </main>
+    </section>
+    <!-- Section End -->
+
+    <!-- About Start -->
+    <section id="about" class="about">
+        <h2>Tentang  <span> Kami</span></h2>
+        <div class="row">
+            <div class="about-img">
+            <img src="assets/img/about-img.jpg" alt="Tentang Kami">
+        </div>
+        <div class="content-about">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, iste.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam aperiam maxime laudantium cum autem quod?</p>
+
+        </div>
+
+            
+        </div>
+        
+    </section>
+    <!-- About End -->
+    <!-- Pilihan Mobil Start -->
+    <section id="car" class="car">
+        <h2>Mobil<span> Kami</span></h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam accusamus illo id molestias obcaecati voluptas.</p>
+
+        <div class="row">
+            <div class="menu-card">
+                <img src="assets/img/ferarrii.jpg" alt="ferarri" class="menu-card-img">
+                <h3 class="menu-card-title">-Ferarri-</h3>
+                <p class="menu-card-price">USD 2000</p>
+            </div>
+            <div class="menu-card">
+                <img src="assets/img/ferarrii.jpg" alt="ferarri" class="menu-card-img">
+                <h3 class="menu-card-title">-Ferarri-</h3>
+                <p class="menu-card-price">USD 2000</p>
+            </div>
+            <div class="menu-card">
+                <img src="assets/img/ferarrii.jpg" alt="ferarri" class="menu-card-img">
+                <h3 class="menu-card-title">-Ferarri-</h3>
+                <p class="menu-card-price">USD 2000</p>
+            </div>
+            <div class="menu-card">
+                <img src="assets/img/ferarrii.jpg" alt="ferarri" class="menu-card-img">
+                <h3 class="menu-card-title">-Ferarri-</h3>
+                <p class="menu-card-price">USD 2000</p>
+            </div>
+            <div class="menu-card">
+                <img src="assets/img/ferarrii.jpg" alt="ferarri" class="menu-card-img">
+                <h3 class="menu-card-title">-Ferarri-</h3>
+                <p class="menu-card-price">USD 2000</p>
+            </div>
+            
+        </div>
+
+
+    </section>
+
+    <!-- Pilihan Mobil End -->
+
+    <!-- footer Start -->
+    <footer id="footer" class="site-footer">
+        <div class="container" >
+          <div class="row">
+            
   
+            <div>
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="#" class="nav-link">Contact Us</a></li>
+                <li><a href="#" class="nav-link">Contribute</a></li>
+                <li><a href="#" class="nav-link">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by Haerul Taka.
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>  
+                <li><a class="github" href="#"><i class="fa fa-github"></i></a></li> 
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+    <!-- Footer End -->
+    
+    <script>
+        feather.replace()
+      </script>
+      <!-- Javascript -->
+      <script src="assets/script/script.js">
+
+      </script>
 </body>
 </html>

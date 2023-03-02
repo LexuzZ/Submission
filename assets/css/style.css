@@ -151,7 +151,7 @@ body{
     line-height: 1.6;
 }
 /* menu */
-.menu h2{
+.car h2{
     margin-bottom: 1rem;
 }
 .car p{
@@ -178,6 +178,38 @@ body{
 .car .row .menu-card .menu-card-title{
     margin-top: 1rem auto 0.5rem;
 }
+/* Profile */
+aside{
+  width: 25%;
+  float: right;
+  overflow: auto;
+  text-align: center;
+}
+aside h1,h2, h3{
+  padding: 10px;
+  margin: 10px;
+}
+.artikel{
+  float: left;
+  width: 60%;
+  font-size: 15px;
+  text-align: center;
+}
+article{
+  padding: 10px;
+}
+article h1{
+  margin: 10px;
+  padding: 10px;
+}
+main {
+  padding: 20px;
+  overflow: auto;
+}
+*{
+  box-sizing: border-box;
+}
+
 /* footer */
 
 .site-footer
